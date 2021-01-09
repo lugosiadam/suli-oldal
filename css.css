@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#head {
+    margin-bottom: 5%;
+}
+
+#head, #content {
+    width: 90%;
+    margin: 0px auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(hatter.jpg) center center / cover no-repeat fixed;
+}
+
+#profile-card {
+    width: 480px;
+    max-width: calc(100vw - 10px);
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.8) 10px 10px 80px;
+    border-radius: 4px;
+}
+
+#head, #links {
+    text-align: center;
+}
+
+#profile-image {
+    margin-top: -60px;
+}
+
+#content{
+    padding: 5% 10%;
+    border-top: 1px solid hsla(0, 0%, 30% .8);
+}
+
+#about {
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 5%;
+    color: wheat;
+    text-shadow: rgb(0, 0, 0) 0px -1px, rgb(0, 0, 0) 1px 0px, rgb(0, 0, 0) 0px 1px, rgb(0, 0, 0) -1px 0px;
+}
+
+#kisfilm {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#kisfilmhref {
+    line-height: 150%;
+}
+
+#szakmak, #felveteli {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-left: 15px;
+    line-height: 130%;
+}
+
+#flink {
+    margin-left: 15px;
+}
+
+#fbig {
+    display: inline;
+}
