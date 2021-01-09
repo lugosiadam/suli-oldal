@@ -19,7 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(hatter.jpg) center center / cover no-repeat fixed;
+    background: url(assets/hatter.jpg) center center / cover no-repeat fixed;
 }
 
 #profile-card {
